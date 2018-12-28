@@ -27,6 +27,7 @@ import android.provider.Settings;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import org.lineageos.settings.PowerSaveModeChangeReceiver;
+import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.RefreshRateUtils;
 import org.lineageos.settings.fps.FPSUtils;
@@ -59,6 +60,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
 
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
+        DiracUtils.initialize(context);
         DozeUtils.checkDozeService(context);
         FPSUtils.initialize(context);
         ThermalUtils.startService(context);
