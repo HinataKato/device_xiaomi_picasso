@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     NfcNci \
     SecureElement \
     Tag
-    
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon
+
+# Overlay - notch style
+PRODUCT_PACKAGES += \
+    NotchNoFillOverlay
 
 # OTA
 PRODUCT_HOST_PACKAGES += \
