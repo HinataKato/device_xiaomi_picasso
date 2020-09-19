@@ -18,6 +18,9 @@ ro.sf.blurs_are_expensive=1
 # Charger Mode
 ro.charger.enable_suspend=true
 
+# Graphics
+debug.hwui.renderer=skiavk
+
 # Hax
 ro.control_privapp_permissions=log
 
