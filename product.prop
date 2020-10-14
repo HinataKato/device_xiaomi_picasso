@@ -15,3 +15,6 @@ ro.charger.enable_suspend=true
 
 # Hax
 ro.control_privapp_permissions=log
+
+# Smart fps switching
+ro.vendor.smart_dfps.enable=false
