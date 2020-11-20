@@ -129,6 +129,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
     AospFrameworkResOverlay \
+    AospWifiResOverlay \
     CarrierConfigResCommon \
     CellBroadcastReceiverResCommon \
     DevicesAndroidOverlay \
@@ -143,9 +144,12 @@ PRODUCT_PACKAGES += \
     MiuiFrameworkResOverlay \
     MiuiSettingsResOverlay \
     MiuiSystemUIResOverlay \
+    NetworkStackOverlay \
     SystemUIResCommon \
     TelecommResCommon \
-    TelephonyResCommon
+    TelephonyResCommon \
+    WifiResCommon \
+    WifiResTarget
 
 # Overlay - notch style
 PRODUCT_PACKAGES += \
@@ -213,6 +217,10 @@ PRODUCT_PACKAGES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
+
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay
 
 # WiFi Display
 PRODUCT_PACKAGES += \
