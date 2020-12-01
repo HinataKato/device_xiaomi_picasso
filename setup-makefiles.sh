@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE_COMMON=sm8250-common
+DEVICE=picasso
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2020
@@ -25,26 +25,15 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
-# Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true
+# initialize the helper
+INITIAL_COPYRIGHT_YEAR="$DEVICE_BRINGUP_YEAR"
+setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false
 
 # Copyright headers and guards
-write_headers "umi cmi lmi"
+write_headers
 
-# The standard common blobs
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
+# The standard device blobs
+write_makefiles "${MY_DIR}/../${DEVICE}/proprietary-files.txt" true
 
-if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
-    # Reinitialize the helper for device
-    INITIAL_COPYRIGHT_YEAR="$DEVICE_BRINGUP_YEAR"
-    setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false
-
-    # Copyright headers and guards
-    write_headers
-
-    # The standard device blobs
-    write_makefiles "${MY_DIR}/../${DEVICE}/proprietary-files.txt" true
-
-    # Finish
-    write_footers
-fi
+# Finish
+write_footers

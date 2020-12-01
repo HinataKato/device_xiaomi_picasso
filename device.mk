@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
 
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.kona
+    lineage.biometrics.fingerprint.inscreen@1.0-service.lito
 
     
 # HIDL
@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
 
 #Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl.kona
+    android.hardware.light@2.0-impl.lito
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -149,7 +149,7 @@ PRODUCT_COPY_FILES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    lineage.powershare@1.0-service.xiaomi_kona
+    lineage.powershare@1.0-service.xiaomi_lito
     
 # PowerStats
 PRODUCT_PACKAGES += \
