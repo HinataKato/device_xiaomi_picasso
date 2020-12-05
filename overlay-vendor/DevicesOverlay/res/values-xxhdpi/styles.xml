@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StatusBarPromptContainerStyle">
+        <item name="android:layout_gravity">start|bottom|center</item>
+        <item name="android:layout_marginStart">19.25px</item>
+    </style>
+</resources>

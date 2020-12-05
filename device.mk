@@ -139,12 +139,29 @@ DEVICE_PACKAGE_OVERLAYS += \
     
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
-    FrameworksResTarget 
-    
+    AospFrameworkResOverlay \
+    CarrierConfigResCommon \
+    CellBroadcastReceiverResCommon \
+    DevicesAndroidOverlay \
+    DevicesOverlay \
+    DocumentsUIOverlay \
+    ElderlyNavigationBarOverlay \
+    FrameworksResCommon \
+    FrameworksResTarget \
+    GestureLineOverlay \
+    MccMncOverlay \
+    MiuiBluetoothOverlay \
+    MiuiFrameworkResOverlay \
+    MiuiSettingsResOverlay \
+    MiuiSystemUIResOverlay \
+    SystemUIResCommon \
+    TelecommResCommon \
+    TelephonyResCommon
+
 # OTA
 PRODUCT_HOST_PACKAGES += \
     signapk
-    
+
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -179,11 +196,9 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
-
     
 PRODUCT_PACKAGES += \
 	android.hardware.radio@1.4
-
 
 PRODUCT_BOOT_JARS += \
     telephony-ext

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_automatic_brightness_usetouch">false</bool>
+    <bool name="config_brightness_useprox">false</bool>
+    <bool name="config_displayFeatureCallbackSupported">true</bool>
+    <bool name="config_nightLightAdjSupported">true</bool>
+    <bool name="config_slave_wifi_support">true</bool>
+    <bool name="config_sunlight_mode_available">true</bool>
+    <bool name="config_wait_for_autobrightness">false</bool>
+</resources>

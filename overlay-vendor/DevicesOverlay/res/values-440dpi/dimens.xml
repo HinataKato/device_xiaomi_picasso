@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_side_padding">85.0dip</dimen>
+    <dimen name="round_cornor_padding">7.0dip</dimen>
+    <dimen name="incall_round_cornor_padding">7.0dip</dimen>
+    <dimen name="notch_height">94.97998px</dimen>
+    <dimen name="notch_hole_type_status_bar_padding_top">34.25998px</dimen>
+    <dimen name="notch_width">235.97px</dimen>
+    <dimen name="statusbar_carrier_max_width">192.5px</dimen>
+    <dimen name="statusbar_hole_type_padding_left">26.72998px</dimen>
+    <dimen name="statusbar_hole_type_padding_right">216.72px</dimen>
+</resources>
