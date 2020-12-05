@@ -56,6 +56,7 @@ system_ext/etc/permissions/qti_permissions.xml
 -system_ext/app/datastatusnotification/datastatusnotification.apk
 -system_ext/app/embms/embms.apk
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-system_ext/priv-app/ims/ims.apk
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/embms.xml
@@ -64,9 +65,9 @@ system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/embmslibrary.jar
 system_ext/framework/qcrilhook.jar
 
-# Radio - from LA.QSSI.11.0.r1-06600-qssi.0
-system_ext/framework/qti-telephony-common.jar|7d684c5220f5a2a5778bac40f95d852de68dd1a6
--system_ext/priv-app/ims/ims.apk|61507a8ad66f4f299fe66e11ff71eeb3e2fe5259
+# Radio
+# Patched to remove MIUI deps
+system_ext/framework/qti-telephony-common.jar|ea1bf022729edc99abe5ee3fc085aaadecd7a905
 
 # Radio_IMS
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml
