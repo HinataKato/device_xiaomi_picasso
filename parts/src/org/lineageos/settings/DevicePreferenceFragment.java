@@ -93,8 +93,6 @@ public class DevicePreferenceFragment extends PreferenceFragment {
                         } catch (RemoteException e) {
                         // We can do nothing
                         }
-                        Toast.makeText(getContext(),
-                        R.string.msg_device_need_restart, Toast.LENGTH_SHORT).show();
                     }
                     updateValuesAndSummaries();
                     return true;
