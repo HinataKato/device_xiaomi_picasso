@@ -89,66 +89,6 @@
         <item>530</item>
         <item>530</item>
     </integer-array>
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>38</item>
-        <item>69</item>
-        <item>125</item>
-        <item>190</item>
-        <item>250</item>
-        <item>270</item>
-        <item>380</item>
-        <item>485</item>
-        <item>655</item>
-        <item>680</item>
-        <item>680</item>
-        <item>680</item>
-        <item>690</item>
-        <item>690</item>
-        <item>690</item>
-        <item>700</item>
-        <item>700</item>
-        <item>700</item>
-        <item>710</item>
-        <item>710</item>
-        <item>720</item>
-        <item>720</item>
-        <item>720</item>
-        <item>730</item>
-        <item>730</item>
-        <item>730</item>
-        <item>750</item>
-        <item>760</item>
-        <item>780</item>
-        <item>780</item>
-        <item>790</item>
-        <item>800</item>
-        <item>810</item>
-        <item>830</item>
-        <item>840</item>
-        <item>850</item>
-        <item>855</item>
-        <item>860</item>
-        <item>870</item>
-        <item>890</item>
-        <item>900</item>
-        <item>910</item>
-        <item>920</item>
-        <item>940</item>
-        <item>950</item>
-        <item>1120</item>
-        <item>1300</item>
-        <item>1520</item>
-        <item>1730</item>
-        <item>1950</item>
-        <item>2200</item>
-        <item>2450</item>
-        <item>2530</item>
-        <item>3140</item>
-        <item>3520</item>
-        <item>3550</item>
-        <item>3640</item>
-        <item>4095</item>
-    </integer-array>
     <integer-array name="config_dynamicHysteresisBrightLevels">
         <item>2000</item>
         <item>2000</item>
