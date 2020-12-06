@@ -23,6 +23,10 @@ $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_TARGET_VNDK_VERSION := 30
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
