@@ -1,6 +1,12 @@
 [
   {
     "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "target_path": "hardware/xiaomi",
+  }
+  {
+    "Remote": "github",
+    "repository": "jjhitel/android_vendor_aeonax_ANXCamera",
+    "target_path": "vendor/aeonax/ANXCamera",
+    "Branch": "R"
   }
 ]
