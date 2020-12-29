@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper \
-    libfmq 
+    libfmq \
+    tinymix
 
 # Bluetooth
 PRODUCT_PACKAGES += \
