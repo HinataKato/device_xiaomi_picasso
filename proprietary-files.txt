@@ -201,7 +201,6 @@ system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qti-telephony-common.jar|ea1bf022729edc99abe5ee3fc085aaadecd7a905
 
 # Radio-IMS
--system_ext/app/imssettings/imssettings.apk
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
