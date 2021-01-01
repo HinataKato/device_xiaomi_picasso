@@ -76,9 +76,12 @@ PRODUCT_COPY_FILES += \
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
-    libdisplayconfig \
+    libdisplayconfig.qti \
+    libgralloc.qti \
     libvulkan \
-    vendor.display.config@1.0
+    vendor.display.config@1.0 \
+    vendor.display.config@2.0 \
+    vendor.qti.hardware.display.composer@3.0
 
 # fastbootd
 PRODUCT_PACKAGES += \
