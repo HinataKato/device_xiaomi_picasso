@@ -94,7 +94,7 @@ BOARD_HAVE_QCOM_FM := true
 TARGET_USES_HWC2 := true
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_picasso
