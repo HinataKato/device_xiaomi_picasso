@@ -130,6 +130,7 @@ void vendor_load_properties() {
     }
     property_override("ro.build.description", "coral-user 11 RQ1A.201205.008 6943376 release-keys");
     property_override("ro.oem_unlock_supported", "0");
+    property_override("ro.adb.secure", "1");
     property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
 	    "ro.vendor.build.fingerprint", "ro.odm.build.fingerprint", "google/coral/coral:11/RQ1A.201205.008/6943376:user/release-keys");
 
