@@ -86,6 +86,9 @@ PRODUCT_PACKAGES += \
     libgralloc.qti \
     libvulkan \
     vendor.display.config@1.0 \
+    vendor.display.config@1.2 \
+    vendor.display.config@1.3 \
+    vendor.display.config@1.5 \
     vendor.display.config@2.0 \
     vendor.qti.hardware.display.composer@3.0
 
@@ -93,11 +96,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1 \
+    vendor.xiaomi.hardware.fingerprintextension@1.0
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0
 
 # HotwordEnrollement
 PRODUCT_COPY_FILES += \
@@ -201,6 +213,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.systemhelper@1.0
+
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
@@ -223,7 +238,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-	android.hardware.radio@1.4 \
+    android.hardware.radio@1.4 \
+    android.hardware.radio.config@1.0 \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.secure_element@1.0 \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
