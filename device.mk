@@ -17,9 +17,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Include ANXCamera if synced
-$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
