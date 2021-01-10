@@ -281,7 +281,10 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
--system_ext/priv-app/ims/ims.apk
+
+# Radio-IMS
+# Patched to remove HD notification
+-system_ext/priv-app/ims/ims.apk|1fce7e8bd0bfad309e9291d94c4a8a4b8501e289
 
 # SCVE
 system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
