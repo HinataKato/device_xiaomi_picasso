@@ -193,6 +193,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_HOST_PACKAGES += \
     signapk
 
+# Perf
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+    libtflite
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -251,10 +259,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0
 
 # Trust HAL
 PRODUCT_PACKAGES += \
