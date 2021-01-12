@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper \
+    libaudiohal \
     libfmq 
 
 PRODUCT_COPY_FILES += \
