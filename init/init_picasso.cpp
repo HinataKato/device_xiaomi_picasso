@@ -149,6 +149,8 @@ void load_props(const char *model, bool is_or = false, bool is_48 = false) {
   ro_prop_override(nullptr, "com.google.clientidbase.ms", CLIENT_ID[1], false);
   property_override("ro.oem_unlock_supported", "0");
   property_override("ro.boot.verifiedbootstate", "green");
+  property_override("ro.debuggable", "0");
+  property_override("ro.build.type", "user");
 
   check_device();
   SetProperty("dalvik.vm.heapstartsize", heapstartsize);
