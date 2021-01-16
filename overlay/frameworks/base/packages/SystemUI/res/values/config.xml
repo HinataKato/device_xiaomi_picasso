@@ -37,4 +37,7 @@
     <integer name="config_qs_rows_portrait">3</integer>
     <integer name="config_qs_columns_landscape">5</integer>
     <integer name="config_qs_rows_landscape">2</integer>
+
+        <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 </resources>
