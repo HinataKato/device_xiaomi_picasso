@@ -20,10 +20,13 @@ package org.lineageos.settings;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.PowerManager;
 import android.util.Log;
 import android.provider.Settings;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import org.lineageos.settings.PowerSaveModeChangeReceiver;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.RefreshRateUtils;
 import org.lineageos.settings.fps.FPSUtils;
@@ -41,6 +44,10 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         // Refresh rate
         RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
+        IntentFilter filter = new IntentFilter();
+        PowerSaveModeChangeReceiver receiver = new PowerSaveModeChangeReceiver();
+        filter.addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGED);
+        context.getApplicationContext().registerReceiver(receiver, filter);
 
         //Micro-Service to restore sata of dt2w on reboot
         SharedPreferences prefs = context.getSharedPreferences(SHAREDD2TW, Context.MODE_PRIVATE); 
