@@ -141,6 +141,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.picasso
 
+# Media
+PRODUCT_PACKAGES += \
+    libmediaplayerservice
+
 # Modules
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/modules)

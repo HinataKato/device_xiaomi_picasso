@@ -37,6 +37,17 @@ system_ext/lib64/libvraudio_client.qti.so|a523ab8c54e76279ad32c7c89e67f85ff76b94
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so|74ceb53e753f816cf05a25dce69d93c67eb471fe
 system_ext/lib64/vendor.qti.voiceprint@1.0.so|1677d7e6765fd6484b91dc6b66afa9f11ee0a2ef
 
+# AV - from LA.QSSI.11.0.r1-09400-qssi.0
+system_ext/lib/extractors/libmmparserextractor.so|63f16bdce8088dc620f5de506c170ae2296e30ed
+system_ext/lib/libavenhancements.so|d682b4b542f780fe2aba84ef4715055584dcc949
+system_ext/lib/libmmosal.so|175c890c965a14043777000cd2cfc20264b04810
+system_ext/lib/libmmparser_lite.so|f7174693d5960eeb8eae2746cd10a7ccacee70c4
+-system_ext/lib/libqct_resampler.so|4186d11e0c418e7366422802635be68e21b9fca6
+system_ext/lib64/extractors/libmmparserextractor.so|ac4d39680610b6c1089d5b7b452ec0fa0c1986e0
+system_ext/lib64/libavenhancements.so|7705e4fcb7539729e1bed75982cb04441148eb87
+system_ext/lib64/libmmosal.so|378098a961e465b5d14a29f5bc2320e10c88580c
+system_ext/lib64/libmmparser_lite.so|02ec1112502dcf2b8a33e279f1b6b981b75fa6fc
+
 # Camera
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@2.0.so
@@ -100,18 +111,6 @@ system_ext/lib64/vendor.qti.gnss@4.0.so
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar|0492cd3db2e253e23b78e56fa8ea7b3a4b15edeb
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
-
-# Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib/libmmrtpdecoder.so
-system_ext/lib/libmmrtpencoder.so
-system_ext/lib/vendor.qti.hardware.vpp@1.1.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
-system_ext/lib64/libmmrtpdecoder.so
-system_ext/lib64/libmmrtpencoder.so
-system_ext/lib64/vendor.qti.hardware.vpp@1.1.so
 
 # Perf - from LA.QSSI.11.0.r1-09400-qssi.0
 system_ext/bin/perfservice|d42bf410f6e4824b22c12e79926485d67e6409df
