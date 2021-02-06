@@ -125,9 +125,7 @@ PRODUCT_BOOT_JARS += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc \
-    init.recovery.qcom.rc \
-    init.sm7250.power.rc
+    init.qcom.rc
 
 # Input
 PRODUCT_COPY_FILES += \
