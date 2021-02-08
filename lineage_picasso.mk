@@ -14,8 +14,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_picasso
 PRODUCT_DEVICE := picasso
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K30 5G
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Redmi K30 5G
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="picasso"
