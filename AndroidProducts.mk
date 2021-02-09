@@ -9,5 +9,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     lineage_picasso-user \
-    lineage_picasso-userdebug \
-    lineage_picasso-eng
+    lineage_picasso-userdebug 
