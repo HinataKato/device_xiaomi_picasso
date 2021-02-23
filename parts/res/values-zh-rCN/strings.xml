@@ -16,7 +16,7 @@
 -->
 <resources>
      <!-- Device specific -->
-    <string name="device_specific_settings_title">设置特殊设置</string>
+    <string name="device_specific_settings_title">设备特殊设置</string>
     <string name="device_specific_settings_summary">红米 K30 5G特殊设置</string>
     <string name="device_refresh_rate">屏幕刷新率</string>
     <string name="device_min_refresh_rate">最小刷新率</string>
