@@ -277,10 +277,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_BOOT_JARS += \
     android.hidl.manager-V1.0-java
 
-#APN overlay
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
-
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
