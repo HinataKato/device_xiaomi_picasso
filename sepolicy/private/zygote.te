@@ -1,1 +1,1 @@
-allow zygote zygote:capability { fsetid };
+allow zygote zygote:capability { fsetid kill };
