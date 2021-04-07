@@ -124,7 +124,8 @@ PRODUCT_BOOT_JARS += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc
+    init.qcom.rc \
+    init.recovery.qcom.rc
 
 # Input
 PRODUCT_COPY_FILES += \
