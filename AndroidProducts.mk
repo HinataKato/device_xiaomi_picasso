@@ -5,5 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_picasso.mk
+    $(LOCAL_DIR)/lineage_picasso.mk
 
+COMMON_LUNCH_CHOICES := \
+    lineage_picasso-user \
+    lineage_picasso-userdebug 
