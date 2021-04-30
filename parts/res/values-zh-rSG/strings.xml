@@ -46,10 +46,13 @@
     <string name="fps_summary">調整每個應用的刷新率</string>
 
     <!-- Dirac settings -->
-    <string name="dirac_title">使用米音提升音質</string>
-    <string name="dirac_summary">米音</string>
-    <string name="dirac_headset_title">耳機類型設定</string>
-    <string name="dirac_preset_title">請選擇預設等化器</string>
+    <string name="dirac_title">米音</string>
+    <string name="dirac_summary">調整音質</string>
+    <string name="dirac_headset_title">選擇耳機類型</string>
+    <string name="dirac_hifi_enable_title">開啟 Hi-Fi</string>
+    <string name="dirac_preset_title">選擇預設</string>
+
+    <string name="dirac_hifi_summary">降低底噪和失真，提升音頻質量（需要插入有線耳機）</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">無</string>

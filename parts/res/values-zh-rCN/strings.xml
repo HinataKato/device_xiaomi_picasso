@@ -52,16 +52,10 @@
     <string name="dirac_hifi_enable_title">开启 Hi-Fi</string>
     <string name="dirac_preset_title">选择预设</string>
 
-    <string name="dirac_hifi_title">Hi-Fi</string>
     <string name="dirac_hifi_summary">降低底噪和失真，提升音频质量（需要插入有线耳机）</string>
 
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">米音</string>
-    <!-- Dirac settings -->
-    <string name="dirac_title">使用米音提升音质</string>
-    <string name="dirac_summary">米音</string>
-    <string name="dirac_headset_title">耳机类型设置</string>
-    <string name="dirac_preset_title">请选择预设效果</string>
 
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">无</string>
